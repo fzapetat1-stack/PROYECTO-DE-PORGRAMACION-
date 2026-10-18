@@ -1,0 +1,17 @@
+INTERFAZ GRAFICA - FARMACIA SHEIBIS
+
+1. Copie TODOS los .java de la carpeta src/ de este zip dentro de su carpeta src/
+   (reemplace los que ya existan: Main, Login, Factura, Cliente, Proveedor, etc.).
+2. Encienda MySQL (XAMPP) y verifique que la base farmacia_sheibis exista.
+3. Desde la carpeta SHEIBIS, en Windows (CMD):
+
+   Compilar:
+     javac -encoding UTF-8 -cp "lib/*" -d out src/*.java
+
+   Ejecutar la interfaz grafica:
+     java -cp "out;lib/*" AppGUI
+
+   Ejecutar la version de consola (como antes):
+     java -cp "out;lib/*" Main
+
+En Linux/Mac use ":" en lugar de ";" en el classpath.
